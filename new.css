@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #EEE;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.container
+{
+    background-color: burlywood;
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 15px;
+    /* margin: 0 auto; */
+}
+.image
+{
+    height: 200px;
+    width: 200px;
+    border:1px solid black;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio
+{
+  float: left;
+  padding: 35px;   
+}
+.header-contact
+{
+    float: right;
+    padding: 35px;
+}
+h1,h2,h3,h4,h5,h6
+{
+    color: crimson;
+}
+.header-contact a
+{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-contact a:hover
+{
+    text-decoration: underline;
+    color: darkgreen;
+}
+.float-clear
+{
+    clear: both;
+}
+hr
+{
+    border: solid black;
+    margin-top: 30px;
+    width: 100%;
+}
+
+#personal-info
+{
+    margin-top: 20px;
+}
+
+.left-div
+{
+    width: 30%;
+    float: left;
+}
+
+.right-div{
+     float: left;
+     width: 70%;
+}
+.inner-div
+{
+    float: left;
+    width: 50%;
+}
+.common-hr
+{
+    border: solid 0.5px black;
+    border-bottom: none;
+}
+#work-experience
+{
+    margin-top: 20px;
+}
+.div-space
+{
+    margin-top: 20px;
+}
+#footer
+{
+    text-align: center;
+    background-color: black;
+}
+#footer a 
+{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white; 
+}
+ #footer p
+{
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
